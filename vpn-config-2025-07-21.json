@@ -164,7 +164,8 @@
       "outbounds": [
         "Best Latency",
         "direct",
-        "🇸🇬 DigitalOcean LLC -1"
+        "🇸🇬 DigitalOcean LLC -1",
+        "🇸🇬 DigitalOcean LLC -2"
       ]
     },
     {
@@ -172,7 +173,8 @@
       "tag": "Best Latency",
       "outbounds": [
         "direct",
-        "🇸🇬 DigitalOcean LLC -1"
+        "🇸🇬 DigitalOcean LLC -1",
+        "🇸🇬 DigitalOcean LLC -2"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "30s"
@@ -181,7 +183,8 @@
       "type": "selector",
       "tag": "Lock Region ID",
       "outbounds": [
-        "🇸🇬 DigitalOcean LLC -1"
+        "🇸🇬 DigitalOcean LLC -1",
+        "🇸🇬 DigitalOcean LLC -2"
       ]
     },
     {
@@ -233,6 +236,25 @@
     {
       "type": "trojan",
       "tag": "🇸🇬 DigitalOcean LLC -1",
+      "server": "quiz.vidio.com",
+      "server_port": 443,
+      "password": "1bfab213-e5a7-4da4-9c75-e8dcc9cce94e",
+      "tls": {
+        "enabled": true,
+        "server_name": "do-v3.bhm69.site",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/trojan",
+        "headers": {
+          "Host": "do-v3.bhm69.site"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇸🇬 DigitalOcean LLC -2",
       "server": "quiz.vidio.com",
       "server_port": 443,
       "password": "1bfab213-e5a7-4da4-9c75-e8dcc9cce94e",
