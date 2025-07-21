@@ -165,7 +165,10 @@
         "Best Latency",
         "direct",
         "🇸🇬 DigitalOcean LLC -1",
-        "🇸🇬 DigitalOcean LLC -2"
+        "🇸🇬 DigitalOcean LLC -2",
+        "🇩🇪 OVH SAS -3",
+        "🇩🇪 OVH SAS -4",
+        "🇳🇱 Hostkey B.V. -5"
       ]
     },
     {
@@ -174,7 +177,10 @@
       "outbounds": [
         "direct",
         "🇸🇬 DigitalOcean LLC -1",
-        "🇸🇬 DigitalOcean LLC -2"
+        "🇸🇬 DigitalOcean LLC -2",
+        "🇩🇪 OVH SAS -3",
+        "🇩🇪 OVH SAS -4",
+        "🇳🇱 Hostkey B.V. -5"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "30s"
@@ -184,7 +190,10 @@
       "tag": "Lock Region ID",
       "outbounds": [
         "🇸🇬 DigitalOcean LLC -1",
-        "🇸🇬 DigitalOcean LLC -2"
+        "🇸🇬 DigitalOcean LLC -2",
+        "🇩🇪 OVH SAS -3",
+        "🇩🇪 OVH SAS -4",
+        "🇳🇱 Hostkey B.V. -5"
       ]
     },
     {
@@ -268,6 +277,63 @@
         "path": "/trojan",
         "headers": {
           "Host": "do-v3.bhm69.site"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇩🇪 OVH SAS -3",
+      "server": "quiz.int.vidio.com",
+      "server_port": 443,
+      "password": "b389ee8f-1ad6-45c2-a079-b1ceb37aada9",
+      "tls": {
+        "enabled": true,
+        "server_name": "admin.ari-andika2.site",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/194.76.173.13-2053",
+        "headers": {
+          "Host": "admin.ari-andika2.site"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇩🇪 OVH SAS -4",
+      "server": "quiz.int.vidio.com",
+      "server_port": 443,
+      "password": "5492b262-ee4b-4617-b0f2-feac5d81db83",
+      "tls": {
+        "enabled": true,
+        "server_name": "admin.ari-andika2.site",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/5.178.106.193-2053",
+        "headers": {
+          "Host": "admin.ari-andika2.site"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇳🇱 Hostkey B.V. -5",
+      "server": "quiz.int.vidio.com",
+      "server_port": 443,
+      "password": "38979ee5-0fa1-41e4-85bd-50dbde20e5eb",
+      "tls": {
+        "enabled": true,
+        "server_name": "admin.ari-andika2.site",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/185.233.184.70-443",
+        "headers": {
+          "Host": "admin.ari-andika2.site"
         }
       }
     },
